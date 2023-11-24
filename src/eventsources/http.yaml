@@ -1,0 +1,8 @@
+type: fastify
+port: 3000
+jwt: 
+  issuer: pavan
+  audience: pavan
+  secretOrKey: pavan
+docs:
+  endpoint: /document

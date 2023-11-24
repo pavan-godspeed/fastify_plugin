@@ -1,0 +1,22 @@
+{
+  "mongodb": {
+    "mode": "single",
+    "dbName": "godspeed",
+    "ports": [
+      27017
+    ]
+  },
+  "postgresql": false,
+  "kafka": false,
+  "elasticsearch": false,
+  "redis": false,
+  "servicePort": 3000,
+  "gsNodeServiceVersion": "latest",
+  "projectName": "fastify_plugin",
+  "meta": {
+    "createTimestamp": "2023-11-17T12:54:27.475Z",
+    "lastUpdateTimestamp": "2023-11-17T12:54:27.475Z",
+    "cliVersionWhileCreation": "2.8.0",
+    "cliVersionWhileLastUpdate": "2.8.0"
+  }
+}
