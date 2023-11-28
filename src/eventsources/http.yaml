@@ -1,8 +1,10 @@
 type: fastify
 port: 3000
+host: http://localhost
+cors: true 
 jwt: 
   issuer: pavan
   audience: pavan
   secretOrKey: pavan
 docs:
-  endpoint: /document
+  endpoint: /api-docs
